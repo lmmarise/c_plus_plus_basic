@@ -75,9 +75,39 @@
     <ClCompile Include="20 文件.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="21 职工管理系统.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21 workerManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21 Employee.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21 manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21 Boss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="21 workManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="21 Employee.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="21 Worker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="21 manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="21 Boss.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

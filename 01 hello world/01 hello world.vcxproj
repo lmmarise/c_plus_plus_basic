@@ -143,9 +143,19 @@
     <ClCompile Include="18 继承.cpp" />
     <ClCompile Include="19 多态.cpp" />
     <ClCompile Include="20 文件.cpp" />
+    <ClCompile Include="21 Boss.cpp" />
+    <ClCompile Include="21 Employee.cpp" />
+    <ClCompile Include="21 manager.cpp" />
+    <ClCompile Include="21 workerManager.cpp" />
+    <ClCompile Include="21 职工管理系统.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05.h" />
+    <ClInclude Include="21 Boss.h" />
+    <ClInclude Include="21 Employee.h" />
+    <ClInclude Include="21 manager.h" />
+    <ClInclude Include="21 Worker.h" />
+    <ClInclude Include="21 workManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
