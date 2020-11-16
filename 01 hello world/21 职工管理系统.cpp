@@ -6,7 +6,7 @@
 using namespace std;
 
 
-void main() {
+void main21() {
 	WorkerManager wm;
 	int choice = 0;
 	while (true) {

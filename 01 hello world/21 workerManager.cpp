@@ -11,7 +11,7 @@ WorkerManager::WorkerManager() {
 	// 1.文件不存在
 	ifstream ifs;
 	ifs.open(FILENAME, ios::in);
-	if (!ifs.is_open) {
+	if (!ifs.is_open()) {
 		// cout << "文件不存在" << endl;
 		this->m_emp_num = 0;
 		this->m_emp_arr = NULL;
@@ -202,7 +202,7 @@ void WorkerManager::clean_file() {
 		ofstream ofs(FILENAME, ios::trunc);
 		ofs.close();
 		// 删除堆区数据
-		for (int i = 0; i < this->get_emp_num; i++)
+		for (int i = 0; i < this->get_emp_num(); i++)
 		{
 			delete this->m_emp_arr[i];
 			this->m_emp_arr[i] = NULL;
