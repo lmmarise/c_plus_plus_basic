@@ -93,6 +93,18 @@
     <ClCompile Include="22 模板.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="24 类模板对象.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24 person.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25 类模板与友元.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26 类模板案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05.h">
@@ -111,6 +123,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="21 Boss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="24 person.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

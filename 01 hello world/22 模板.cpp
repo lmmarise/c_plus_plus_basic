@@ -21,7 +21,7 @@ void func1() {
 	// 显示指定模板类型
 	func<int>();
 }
-
+ 
 // 整数交换
 void intSwap(int& a, int& b) {
 	int temp = a;
@@ -29,7 +29,7 @@ void intSwap(int& a, int& b) {
 	b = temp;
 }
 
-void main() {
+void main22() {
 	int a = 10, b = 11;
 	// intSwap(a, b);
 	mySwap(a, b);
