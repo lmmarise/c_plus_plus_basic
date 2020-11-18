@@ -93,6 +93,12 @@
     <ClCompile Include="22 模板.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="23 模板局限性.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24 类模板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05.h">

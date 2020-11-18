@@ -149,6 +149,8 @@
     <ClCompile Include="21 workerManager.cpp" />
     <ClCompile Include="21 职工管理系统.cpp" />
     <ClCompile Include="22 模板.cpp" />
+    <ClCompile Include="23 模板局限性.cpp" />
+    <ClCompile Include="24 类模板.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05.h" />
