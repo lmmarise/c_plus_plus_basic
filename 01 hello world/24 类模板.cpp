@@ -67,7 +67,7 @@ public:
 	}
 };
 
-void  main()
+void main24()
 {
 	Person<string, int> p("ºÉ", 19);
 	p.show();

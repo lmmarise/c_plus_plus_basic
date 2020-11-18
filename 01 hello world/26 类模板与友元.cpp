@@ -48,7 +48,7 @@ void test03()
 }
 
 
-void main25()
+void main26()
 {
 	test03();
 }

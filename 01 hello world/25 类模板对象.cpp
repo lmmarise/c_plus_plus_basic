@@ -73,7 +73,7 @@ using namespace std;
 //}
 
 
-void main24() {
+void main25() {
 	Person<string, int> p1("cxk", 99);
 	printPerson(p1);
 
