@@ -151,6 +151,10 @@
     <ClCompile Include="22 模板.cpp" />
     <ClCompile Include="23 模板局限性.cpp" />
     <ClCompile Include="24 类模板.cpp" />
+    <ClCompile Include="24 person.cpp" />
+    <ClCompile Include="24 类模板对象.cpp" />
+    <ClCompile Include="25 类模板与友元.cpp" />
+    <ClCompile Include="26 类模板案例.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05.h" />
@@ -159,6 +163,7 @@
     <ClInclude Include="21 manager.h" />
     <ClInclude Include="21 Worker.h" />
     <ClInclude Include="21 workManager.h" />
+    <ClInclude Include="24 person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
