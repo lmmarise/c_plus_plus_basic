@@ -155,6 +155,8 @@
     <ClCompile Include="25 类模板对象.cpp" />
     <ClCompile Include="26 类模板与友元.cpp" />
     <ClCompile Include="27 类模板案例.cpp" />
+    <ClCompile Include="28 一行代码.cpp" />
+    <ClCompile Include="29 STL.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05.h" />

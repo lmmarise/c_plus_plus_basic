@@ -111,6 +111,12 @@
     <ClCompile Include="27 类模板案例.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="28 一行代码.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29 STL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="05.h">
