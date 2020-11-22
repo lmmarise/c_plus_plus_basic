@@ -21,7 +21,35 @@ using namespace std;
 
 #include <vector>
 
-void main() {
+class Person {
+public:
+	Person(string name, int age) {
+		m_name = name;
+		m_age = age;
+	}
+
+public:
+	string m_name;
+	int m_age;
+};
+
+class Student {
+public:
+	string m_Name;
+	int m_Age;
+
+	Student(string name, int age) {
+		m_Name = name;
+		m_Age = age;
+	}
+
+	Student* operator+(Student& stu) {
+		cout << "Student拷贝" << endl;
+		return &stu;
+	}
+};
+
+void main29() {
 	// 数据存入容器
 	vector<int> arr1;
 	arr1.push_back(1);
@@ -37,5 +65,34 @@ void main() {
 	while (it_begin != it_end) {
 		cout << *it_begin << endl;
 		it_begin++;
+	}
+
+
+	// stl容器存储自定义对象
+	vector<Person> ps;
+	ps.push_back(Person("cxk1", 1));
+	ps.push_back(Person("cxk2", 2));
+	ps.push_back(Person("cxk3", 3));
+	// 遍历容器
+	for (vector<Person>::iterator it = ps.begin(); it != ps.end(); it++) {
+		cout << "姓名:" << (*it).m_name << ", 年龄:" << (*it).m_age << endl;
+	}
+
+	// 存储自定义对象的地址
+	vector<Student*> psx;
+	Student* stu4;		// 会导致"cxk4"存不起来
+	stu4 = &Student("cxk4", 4);	// 离开作用域时name会被清理
+	psx.push_back(stu4);
+	Student* const stu5 = &Student("cxk5", 5);
+	// stu5 = &Student("cxk5", 5);	// 变量不可被修改
+	stu5->m_Age = 5;
+	stu5->m_Name = "5";
+	psx.push_back(stu5);
+	Student px6 = Student("cxk6", 6);
+	psx.push_back(&px6);
+	Student px7 = Student("cxk7", 7);
+	psx.push_back(&px7);
+	for (vector<Student*>::iterator itx = psx.begin(); itx != psx.end(); itx++) {
+		cout << "姓名:" << (*itx)->m_Name << ", 年龄:" << (*itx)->m_Age << endl;
 	}
 }
